@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lutemon_base_stats">
+        <item>@array/lutemon_white_stats</item>
+        <item>@array/lutemon_pink_stats</item>
+        <item>@array/lutemon_orange_stats</item>
+        <item>@array/lutemon_green_stats</item>
+        <item>@array/lutemon_black_stats</item>
+    </array>
+    <integer-array name="lutemon_black_stats">
+        <item>9</item>
+        <item>3</item>
+        <item>20</item>
+    </integer-array>
+    <string-array name="lutemon_colors">
+        <item>White</item>
+        <item>Pink</item>
+        <item>Orange</item>
+        <item>Green</item>
+        <item>Black</item>
+    </string-array>
+    <integer-array name="lutemon_green_stats">
+        <item>4</item>
+        <item>8</item>
+        <item>18</item>
+    </integer-array>
+    <array name="lutemon_image_resources">
+        <item>@drawable/lutemon_white</item>
+        <item>@drawable/lutemon_pink</item>
+        <item>@drawable/lutemon_orange</item>
+        <item>@drawable/lutemon_green</item>
+        <item>@drawable/lutemon_black</item>
+    </array>
+    <integer-array name="lutemon_orange_stats">
+        <item>5</item>
+        <item>5</item>
+        <item>25</item>
+    </integer-array>
+    <integer-array name="lutemon_pink_stats">
+        <item>5</item>
+        <item>7</item>
+        <item>22</item>
+    </integer-array>
+    <integer-array name="lutemon_white_stats">
+        <item>6</item> 
+        <item>6</item> 
+        <item>20</item> 
+    </integer-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="lutemon_black">#000000</color>
+    <color name="lutemon_green">#4CAF50</color>
+    <color name="lutemon_orange">#FF9800</color>
+    <color name="lutemon_pink">#E91E63</color>
+    <color name="lutemon_white">#FFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="swipe_background">#FF4D4D</color>
+    <color name="swipe_icon">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="button_padding">8dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="edit_text_padding">8dp</dimen>
+    <dimen name="edit_text_text_size">14sp</dimen>
+    <dimen name="lutemon_list_item_image_size">48dp</dimen>
+    <dimen name="lutemon_list_item_padding">8dp</dimen>
+    <dimen name="lutemon_list_item_text_size">16sp</dimen>
+    <string name="app_name">Lutemon Trainer</string>
+    <string name="battle">Battle</string>
+    <string name="battle_log">Battle Log</string>
+    <string name="battle_tab">Battle</string>
+    <string name="create_lutemon">Create Lutemon</string>
+    <string name="home_tab">Home</string>
+    <string name="lutemon_color_hint">Lutemon Color</string>
+    <string name="lutemon_image">LUTEMON</string>
+    <string name="lutemon_name_hint">Lutemon Name</string>
+    <string name="lutemons_required_for_battle">You need at least two Lutemons to start a battle.</string>
+    <string name="select_lutemon">Select Lutemon</string>
+    <string name="start_training">Start Training</string>
+    <string name="training_tab">Training</string>
+    <style name="Theme.Lutemongamemobile" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

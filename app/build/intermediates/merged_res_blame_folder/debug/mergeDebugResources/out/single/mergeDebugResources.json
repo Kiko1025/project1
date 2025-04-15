@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/layout_activity_main.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_battle_log_background.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/battle_log_background.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_lutemon_black.png.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/lutemon_black.png"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/raw_hit_critical_sound.mp3.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/raw/hit_critical_sound.mp3"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_lutemon_orange.png.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/lutemon_orange.png"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/layout_fragment_battle.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/layout/fragment_battle.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/raw_hit_sound.mp3.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/raw/hit_sound.mp3"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/layout_fragment_home.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_ic_let_go.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/ic_let_go.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/layout_fragment_training.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/layout/fragment_training.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_lutemon_green.png.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/lutemon_green.png"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/xml_backup_rules.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_lutemon_white.png.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/lutemon_white.png"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/layout_lutemon_item.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/layout/lutemon_item.xml"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/drawable_lutemon_pink.png.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/drawable/lutemon_pink.png"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-debug-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

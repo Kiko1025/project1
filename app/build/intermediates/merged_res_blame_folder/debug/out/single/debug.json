@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\layout_fragment_training.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\layout\\fragment_training.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_lutemon_pink.png.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\lutemon_pink.png"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_lutemon_green.png.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\lutemon_green.png"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\layout_lutemon_item.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\layout\\lutemon_item.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\raw_hit_sound.mp3.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\raw\\hit_sound.mp3"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\layout_fragment_battle.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\layout\\fragment_battle.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.lutemon_game_mobile.app-merged_res-29:/layout_lutemon_item.xml.flat",
+        "source": "com.example.lutemon_game_mobile.app-main-31:/layout/lutemon_item.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_ic_let_go.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\ic_let_go.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_lutemon_black.png.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\lutemon_black.png"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_lutemon_orange.png.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\lutemon_orange.png"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\raw_hit_critical_sound.mp3.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\raw\\hit_critical_sound.mp3"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\layout_fragment_home.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_lutemon_white.png.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\lutemon_white.png"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\drawable_battle_log_background.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\drawable\\battle_log_background.xml"
+    },
+    {
+        "merged": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "E:\\WorkProgram\\gradle\\daemon\\7.5\\com.example.lutemon_game_mobile.app-main-31:\\xml\\backup_rules.xml"
+    }
+]

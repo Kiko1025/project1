@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LutemonGame</string>
+    <string name="home_tab">Home</string>
+    <string name="training_tab">Training</string>
+    <string name="battle_tab">Battle</string>
+    <string name="lutemon_name_hint">Lutemon Name</string>
+    <string name="lutemon_color_hint">Lutemon Color</string>
+    <string name="create_lutemon">Create Lutemon</string>
+    <string name="select_lutemon">Select Lutemon</string>
+    <string name="start_training">Start Training</string>
+    <string name="battle">Battle</string>
+    <string name="battle_log">Battle Log</string>
+    <string name="lutemon_image">LUTEMON</string>
+    <string name="lutemons_required_for_battle">You need at least two Lutemons to start a battle.</string>
+</resources>
