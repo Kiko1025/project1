@@ -125,26 +125,21 @@ public class HomeFragment extends Fragment {
             View itemView = viewHolder.itemView;
             int itemHeight = itemView.getHeight();
 
-            // Set the background color
             Paint paint = new Paint();
             paint.setColor(ContextCompat.getColor(getActivity(), R.color.swipe_background));
 
-            // Draw the background color
             RectF backgroundRect = new RectF((float) itemView.getRight() + dX, (float) itemView.getTop(), (float) itemView.getRight(), (float) itemView.getBottom());
             c.drawRect(backgroundRect, paint);
 
-            // Set the "let go" icon
             Drawable letGoIcon = ContextCompat.getDrawable(getActivity(), R.drawable.ic_let_go);
             letGoIcon.setColorFilter(ContextCompat.getColor(getActivity(), R.color.swipe_icon), PorterDuff.Mode.SRC_ATOP);
 
-            // Calculate the icon's position
             int letGoIconTop = itemView.getTop() + (itemHeight - letGoIcon.getIntrinsicHeight()) / 2;
             int letGoIconMargin = (itemHeight - letGoIcon.getIntrinsicHeight()) / 2;
             int letGoIconLeft = itemView.getRight() - letGoIconMargin - letGoIcon.getIntrinsicWidth();
             int letGoIconRight = itemView.getRight() - letGoIconMargin;
             int letGoIconBottom = letGoIconTop + letGoIcon.getIntrinsicHeight();
 
-            // Draw the "let go" icon
             letGoIcon.setBounds(letGoIconLeft, letGoIconTop, letGoIconRight, letGoIconBottom);
             letGoIcon.draw(c);
         }

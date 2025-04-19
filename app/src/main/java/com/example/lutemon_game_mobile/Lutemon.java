@@ -38,12 +38,10 @@ public class Lutemon {
     }
 
     private boolean isMiss() {
-        // Miss chance: 20%
         return random.nextInt(5) == 0;
     }
 
     private boolean isEvade() {
-        // Evasion chance: 15%
         return random.nextInt(100) < 15;
     }
 

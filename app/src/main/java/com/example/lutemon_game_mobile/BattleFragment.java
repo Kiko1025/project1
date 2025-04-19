@@ -155,7 +155,6 @@ public class BattleFragment extends Fragment {
         final Runnable battleSequence = new Runnable() {
             @Override
             public void run() {
-                // Perform the Battle
                 if (selectedLutemonA.isAlive() && selectedLutemonB.isAlive()) {
                     boolean isCriticalHit = selectedLutemonA.isCriticalHit();
                     ImageView attacker = (turn % 2 == 0) ? lutemonIconA : lutemonIconB;
@@ -174,7 +173,7 @@ public class BattleFragment extends Fragment {
                         battleLogMessage.setText(selectedLutemonA.getName() + " missed their attack on " + selectedLutemonB.getName() + ".");
                     } else {
                         if (selectedLutemonA.attack() < selectedLutemonB.getDefense()) {
-                            selectedLutemonB.takeDamage(1); // Apply minimum damage
+                            selectedLutemonB.takeDamage(1);
                             lutemonHealthB.setProgress(selectedLutemonB.getHealth());
                             lutemonHealthTextB.setText(selectedLutemonB.getHealth() + "/" + selectedLutemonB.getMaxHealth());
                             updateHealthBarColor(lutemonHealthB, selectedLutemonB.getHealth(), selectedLutemonB.getMaxHealth());
@@ -187,48 +186,43 @@ public class BattleFragment extends Fragment {
                     if (!selectedLutemonB.isAlive()) {
                         handleBattleEnd();
                     } else {
-                        // Swap Lutemons
                         Lutemon temp = selectedLutemonA;
                         selectedLutemonA = selectedLutemonB;
                         selectedLutemonB = temp;
 
-                        // Swap health bars
                         ProgressBar tempHealth = lutemonHealthA;
                         lutemonHealthA = lutemonHealthB;
                         lutemonHealthB = tempHealth;
 
-                        // Swap health bar texts
                         TextView tempHealthText = lutemonHealthTextA;
                         lutemonHealthTextA = lutemonHealthTextB;
                         lutemonHealthTextB = tempHealthText;
 
                         turn++;
-                        // Continue the battle sequence with a random delay between 1000 ms and 2000 ms
                         handler.postDelayed(this, 1000 + new Random().nextInt(1000));
                     }
                 }
             }
         };
 
-        // Start the battle sequence
         handler.postDelayed(battleSequence, 1000);
     }
 
     private void handleBattleEnd() {
         battleLogMessage.setText(selectedLutemonB.getName() + " was defeated.");
         selectedLutemonA.addExperience(1);
-        selectedLutemonA.incrementBattlesWon(); // Update battle statistics
-        selectedLutemonB.incrementBattlesLost(); // Update battle statistics
-        selectedLutemonA.heal(); // Heal the winning Lutemon
-        selectedLutemonB.heal(); // Heal the defeated Lutemon
-        selectedLutemonB.applyStatPenalty(); // Apply stat penalty to the defeated Lutemon
-        lutemonHealthA.setProgress(selectedLutemonA.getHealth()); // Update health bar
+        selectedLutemonA.incrementBattlesWon();
+        selectedLutemonB.incrementBattlesLost();
+        selectedLutemonA.heal();
+        selectedLutemonB.heal();
+        selectedLutemonB.applyStatPenalty();
+        lutemonHealthA.setProgress(selectedLutemonA.getHealth());
         lutemonHealthTextA.setText(selectedLutemonA.getHealth() + "/" + selectedLutemonA.getMaxHealth());
         updateHealthBarColor(lutemonHealthA, selectedLutemonA.getHealth(), selectedLutemonA.getMaxHealth());
-        lutemonHealthB.setProgress(selectedLutemonB.getHealth()); // Update health bar
+        lutemonHealthB.setProgress(selectedLutemonB.getHealth());
         lutemonHealthTextB.setText(selectedLutemonB.getHealth() + "/" + selectedLutemonB.getMaxHealth());
         updateHealthBarColor(lutemonHealthB, selectedLutemonB.getHealth(), selectedLutemonB.getMaxHealth());
-        storage.saveLutemons(); // Save the Lutemons' stats
+        storage.saveLutemons();
     }
 
     private void playAttackSound() {
@@ -248,7 +242,6 @@ public class BattleFragment extends Fragment {
         attackAnimation.setDuration(500);
 
         if (isCriticalHit && attacker == lutemonIconA) {
-            // Scale animation for critical hit
             ObjectAnimator scaleX = ObjectAnimator.ofFloat(attacker, "scaleX", -1.0f, -1.5f, -1.0f);
             scaleX.setDuration(500);
             ObjectAnimator scaleY = ObjectAnimator.ofFloat(attacker, "scaleY", 1.0f, 1.5f, 1.0f);
@@ -256,7 +249,6 @@ public class BattleFragment extends Fragment {
             scaleX.start();
             scaleY.start();
         } else if (isCriticalHit && attacker == lutemonIconB) {
-            // Scale animation for critical hit
             ObjectAnimator scaleX = ObjectAnimator.ofFloat(attacker, "scaleX", 1.0f, 1.5f, 1.0f);
             scaleX.setDuration(500);
             ObjectAnimator scaleY = ObjectAnimator.ofFloat(attacker, "scaleY", 1.0f, 1.5f, 1.0f);

@@ -41,7 +41,6 @@ public class TrainingFragment extends Fragment {
         lutemonArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         lutemonSpinner.setAdapter(lutemonArrayAdapter);
 
-        // Check if there are no Lutemons available
         if (storage.getLutemons().isEmpty()) {
             lutemonStatsTextView.setText("No Lutemons available. Please add Lutemons first.");
             lutemonSpinner.setEnabled(false);
@@ -67,7 +66,7 @@ public class TrainingFragment extends Fragment {
                 if (selectedLutemon != null) {
                     selectedLutemon.train();
                     updateLutemonStats();
-                    storage.saveLutemons(); // Save the Lutemons' stats
+                    storage.saveLutemons();
                 }
             }
         });
